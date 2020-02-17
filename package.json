@@ -1,0 +1,36 @@
+{
+  "name": "drug-regulation-api-express",
+  "version": "1.0.0",
+  "description": "The REST API for drug regulation system.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/cityu-final-year-project/drug-regulation-api-express-js.git"
+  },
+  "keywords": [
+    "node",
+    "restful",
+    "api"
+  ],
+  "author": "Jason Viana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/cityu-final-year-project/drug-regulation-api-express-js/issues"
+  },
+  "homepage": "https://gitlab.com/cityu-final-year-project/drug-regulation-api-express-js#README",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "fabric-client": "^1.4.3",
+    "fabric-network": "^1.4.2",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.9.1",
+    "uuid": "^3.3.2"
+  }
+}
